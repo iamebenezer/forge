@@ -2588,6 +2588,7 @@ body:not(.rtl) .elementor-5579 .elementor-element.elementor-element-98a4399 .ele
 }
 body, html{
     overflow-x: hidden;
+    overflow-y: scroll;
 }
 .elementor-5579 .elementor-element.elementor-element-3947b187>.elementor-element-populated {
     padding: 0px 0px 0px 0px;
