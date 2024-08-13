@@ -186,10 +186,27 @@
           <script src="stars.js"></script>
         <!-- <img src="img/main-grid.svg" alt="grid" class="main__bg"> -->
         <canvas class="sketch"></canvas>
+        <style>
+               .floating {
+           
+            animation: float 3s ease-in-out infinite;
+        }
 
+        @keyframes float {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+        </style>
         <div class="container">
             <div style=" display: flex; justify-content: center;" >
-            <img src="/logo-1.png" style="width: 200px;" class="hero-img" alt="">
+            <img src="/logog.png" style="width: 200px;" class="hero-img floating" alt="">
         </div>
             <div class="main__inner" data-aos="fade-down" data-aos-duration="700">
                 <h1 class="h1 main__title">Forge Your Future in Blockchain with</h1>
